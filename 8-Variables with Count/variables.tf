@@ -1,6 +1,6 @@
 # Below is the variables blocks
 variable "ec2_name_tag" {
-  default = ["name1", "name2","name3"]
+  default = ["prod", "dev","stage"]
 }
 
 variable "instance_type" {

@@ -1,5 +1,5 @@
 # Below is the resource block which creates EC2 Instance
-resource "aws_instance" "test" {
+resource "aws_instance" "web_server" {
   count = length(var.ec2_name_tag)
 
   ami           = var.ami_ids[count.index]
