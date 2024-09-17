@@ -13,3 +13,4 @@ resource "aws_instance" "test2" {
     Name = var.ec2_name_tag[1]
   }
 }
+

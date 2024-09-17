@@ -19,11 +19,14 @@ resource "aws_instance" "test" {
 
 */
 
+/*
 resource "aws_instance" "prod" {
   count         = var.istest == false ? 1 : 0
   ami           = "ami-0bfddf4206f1fa7b9"
   instance_type = "t2.large"
 }
+
+*/
 
 ###########################################################################################
 # Example - 2
